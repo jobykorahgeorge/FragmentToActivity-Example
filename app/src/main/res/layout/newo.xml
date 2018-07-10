@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:hint="Activity Text"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:elevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textMain"
+        android:background="@drawable/rectangle_boder_frame"
+        ></FrameLayout>
+
+</RelativeLayout>
